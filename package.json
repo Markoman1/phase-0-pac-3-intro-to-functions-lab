@@ -4,10 +4,7 @@
   "description": "Practice writing functions in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
-  },
-  "repository": {
-    "type": "git",
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json --bail",
     "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-intro-to-functions-lab.git"
   },
   "keywords": [
